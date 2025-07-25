@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kashandel – Business Solutions</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header>
+    <nav>
+      <span class="logo">Kashandel</span>
+
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================= PAGES ================= -->
+
+  <!-- ABOUT -->
+  <section id="about" class="page">
+    <h2>About Kashandel</h2>
+    <p>Founded in 2014, Kashandel has partnered with more than 120 companies across 18 countries to unlock new value through digital transformation, operational excellence and sustainable innovation.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Mission</h3>
+        <p>Empower every organization to achieve more through technology and strategic insight.</p>
+      </div>
+      <div class="card">
+        <h3>Vision</h3>
+        <p>To become the most trusted catalyst for business reinvention in a rapidly changing world.</p>
+      </div>
+      <div class="card">
+        <h3>Values</h3>
+        <p>Integrity, Client-centricity, Continuous learning, Measurable impact.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    © <span id="year"></span> Kashandel. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
